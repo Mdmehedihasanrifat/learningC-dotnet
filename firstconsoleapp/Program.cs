@@ -25,10 +25,24 @@
         int n = (int)m;
         Console.WriteLine(n);
 
-        string s =Convert.ToString(m);
-        Console.WriteLine(s);
+        string str =Convert.ToString(m);
+        Console.WriteLine(str);
         // input from user
         string? userName = Console.ReadLine();
         Console.WriteLine($"Hello {userName}");
+        // assignment operator
+        int p = 10;
+        int q = 20;
+        p += q;
+        Console.WriteLine(p);
+        // conditional operator
+        int r = 10; 
+        int sInt = 20;
+        int t = r > sInt ? r : sInt;
+        Console.WriteLine(t);
+        // logical operator
+        bool u = true;
+        bool v = false;
+        Console.WriteLine(u && v);
     }
 }
