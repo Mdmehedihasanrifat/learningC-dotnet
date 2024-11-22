@@ -79,6 +79,26 @@
     break;
 
     }
+
+
+
+    //  loop
+    for(int i=0;i<5;i++){
+        Console.WriteLine(i);
+    }
+
+
+
+    // while loop
+
+    while(userAge<25){
+        Console.WriteLine(userAge);
+        userAge++;
+
+    }
+
+
+    
     }
    
 
