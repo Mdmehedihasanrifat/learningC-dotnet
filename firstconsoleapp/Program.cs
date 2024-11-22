@@ -44,5 +44,16 @@
         bool u = true;
         bool v = false;
         Console.WriteLine(u && v);
+        
+    // conditonal statement
+         int userAge=19;
+    
+    if (userAge>=18){
+        Console.WriteLine("You are eligible to vote");}
+    else{
+        Console.WriteLine("You are not eligible to vote");
     }
+    }
+   
+
 }
