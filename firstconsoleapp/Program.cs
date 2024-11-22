@@ -1,4 +1,22 @@
-﻿class Test{
+﻿
+
+class Person{
+
+ public string name;
+ public int  age;
+
+    public Person(string name,int age){
+
+        this.name=name;
+        this.age=age;
+    }
+
+
+
+}
+
+
+class Test{
 
   public static int sum(int a,int b){
 
@@ -102,7 +120,16 @@
    Console.WriteLine(sum(10,20));
 
 
+
+   Person p1= new Person("John",25);
+    Console.WriteLine(p1.name);
+    Console.WriteLine(p1.age);
+
+
     }
    
+
+
+
 
 }
