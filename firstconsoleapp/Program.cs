@@ -27,9 +27,8 @@
 
         string s =Convert.ToString(m);
         Console.WriteLine(s);
+        // input from user
+        string? userName = Console.ReadLine();
+        Console.WriteLine($"Hello {userName}");
     }
-
-
-    
-
 }
