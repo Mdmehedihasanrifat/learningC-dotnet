@@ -4,11 +4,19 @@ class Person{
 
  public string name;
  public int  age;
-
+  private int salary;
     public Person(string name,int age){
 
         this.name=name;
         this.age=age;
+    }
+
+    public void setSalary(int salary){
+        this.salary=salary;
+    }
+
+    public int getSalary(){
+        return this.salary;
     }
 
 
@@ -122,14 +130,24 @@ class Test{
 
 
    Person p1= new Person("John",25);
+    p1.setSalary(10000);
+
+    Console.WriteLine(p1.getSalary());
     Console.WriteLine(p1.name);
     Console.WriteLine(p1.age);
 
 
+        int []num={2,4,5,6};
+
+        for(int i=0;i<num.Length;i++){
+
+            Console.WriteLine(num[i]);
+        }
+
     }
    
 
-
+  
 
 
 }
