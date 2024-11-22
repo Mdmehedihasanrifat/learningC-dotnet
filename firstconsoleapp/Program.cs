@@ -1,6 +1,9 @@
 ﻿class Test{
 
+  public static int sum(int a,int b){
 
+    return a+b;
+  }
     public static void Main(string[] args){
         System.Console.WriteLine("Hello World");
         // varibale declaration
@@ -96,9 +99,9 @@
         userAge++;
 
     }
+   Console.WriteLine(sum(10,20));
 
 
-    
     }
    
 
