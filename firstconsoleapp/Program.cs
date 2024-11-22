@@ -12,6 +12,21 @@
         bool f = true;
 
         Console.WriteLine($"{a}, {b}, {c}, {d}, {e}, {f}");
+
+        // Type conversion
+
+        // Implicit conversion  
+        int x = 10;
+        double y = x;
+        Console.WriteLine(y);
+
+        // Explicit conversion
+        double m = 10.5;
+        int n = (int)m;
+        Console.WriteLine(n);
+
+        string s =Convert.ToString(m);
+        Console.WriteLine(s);
     }
 
 
